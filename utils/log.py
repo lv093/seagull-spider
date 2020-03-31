@@ -43,7 +43,7 @@ class AppLogger(Logger):
             self.manager.emittedNoHandlerWarning = 1
 
 
-def get_logger(app, logfile_name="app", log_path="/tmp/sport-data-spider/", level=logging.DEBUG):
+def get_logger(app, logfile_name="app", log_path="/tmp/sport-data-news/", level=logging.DEBUG):
     '''save log to diffrent file by deffirent log level into the log path
     and print all log in console'''
     RequestID(app)

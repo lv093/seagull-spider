@@ -27,7 +27,7 @@ KAFKA_HOST = 'localhost:9092'
 
 # logs
 LOG_PATH = './logs'
-LOG_FILENAME = 'seagull-spider'
+LOG_FILENAME = 'seagull-news'
 LOG_LEVEL = 10
 
 SQLALCHEMY_ECHO = False
