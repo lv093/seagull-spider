@@ -36,7 +36,6 @@ class ZhihuGrabService:
         except requests.exceptions.RequestException as err:
             logger.error("grep_live_index_status_code err:[%s]" % err)
             return None
-        return
 
 zhihu_grab_svc = ZhihuGrabService()
 
